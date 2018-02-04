@@ -7,7 +7,7 @@ from .memory import get_language_from_path
 
 if django.VERSION >= (2, 0):
     class LocaleRegexURLResolver:  # type: ignore
-    pass
+        pass
 else:
     from django.urls import LocaleRegexURLResolver
 
