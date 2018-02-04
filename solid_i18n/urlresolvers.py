@@ -4,7 +4,7 @@ from django.urls import clear_url_caches
 from django.conf import settings
 from .memory import get_language_from_path
 
-
+import django
 if django.VERSION >= (2, 0):
     class LocaleRegexURLResolver:  # type: ignore
         pass
