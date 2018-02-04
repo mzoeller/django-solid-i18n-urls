@@ -2,7 +2,7 @@ import warnings
 from django import VERSION as DJANGO_VERSION
 from django.conf import settings
 from django.utils import lru_cache, six
-from django.core.urlresolvers import get_resolver
+from django.urls import get_resolver
 
 from .urlresolvers import SolidLocaleRegexURLResolver
 
